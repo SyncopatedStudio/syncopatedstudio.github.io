@@ -1,0 +1,18 @@
+<div class="about">
+  <div class="about__text">
+    <span>{
+      {% for tag in page.tags %}
+        {% capture tag_name %}{{ tag }}{% endcapture %}
+        <a href="/tags/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code></a>
+      {% endfor %}
+    }</span>
+  </div>
+    <!-- <div class="about__text">
+        Created on: {{ page.date | date: "%d %B %Y" }}
+    </div> -->
+    {% if page.updated %}
+      <div class="about__updated">
+          Updated: {{ page.updated | date: "%B %d %Y" }}
+      </div>
+    {% endif %}
+</div>

@@ -1,0 +1,34 @@
+# Site settings
+title: syncopatedOS
+logo: /assets/images/channel_header.png
+description: >
+  Things a robot could do but won't
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://syncopatedOS.github.io" # the base hostname & protocol for your site
+url_dev: "https://127.0.0.1:4000" # the base hostname & protocol for your site
+
+author:
+  fullname: Robert Pannick
+  github: syncopatedOS
+
+# Syntax highlighting
+highlightstyle: "darkula"
+styles: ["darkula"]
+
+# Handling Reading
+exclude: ["README.md", "README.html", "Gemfile", "Gemfile.lock", "resources/*", "_drafts/*", "_mdwriter.cson"]
+
+# Build settings
+highlighter: null
+markdown: kramdown
+
+plugins:
+  # - jekyll-diagrams
+  - jekyll-target-blank
+
+sass:
+    sass_dir: _sass
+
+# collections:
+#   library:
+#     permalink: /library/:name

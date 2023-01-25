@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include meta_tags/base.html %}
+        {% include meta_tags/sharing.html %}
+        {% include externals/styling.html %}
+        {% if site.tags != "" %}
+          {% include tags/collect.html %}
+        {% endif %}
+    </head>
+
+    <body>
+        <div class="wrapper">
+          {% include footer.html %}
+
+          {% include category/title.html %}
+
+
+          <div class="post">
+            <ul>
+                {% assign empty_category = true %}
+                {% for post in site.posts %}
+                    {% if post.categories contains page.category %}
+                        <li class="post-teaser">
+                            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> {{ post.date | date: "%d %B %Y" }}<br>
+                            {{ post.description }}
+                        </li>
+                        {% assign empty_category = false %}
+                    {% endif %}
+                {% endfor %}
+
+                {% if empty_category %}
+                    <li class="empty-post-list">
+                        It seems that there are no articles on that category,
+                        please go back <a href="/">home</a> to see the full list of articles.
+                    </li>
+                {% endif %}
+            </ul>
+           </div>
+          <!-- {% include page/explore.html %} -->
+
+          {% include footer.html %}
+        </div>
+
+        {% include externals/scripting.html %}
+        {% include externals/google_analytics.html %}
+    </body>
+</html>
