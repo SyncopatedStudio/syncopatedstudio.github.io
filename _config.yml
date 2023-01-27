@@ -1,15 +1,15 @@
 # Site settings
-title: syncopatedOS
+title: syncopated linux
 logo: /assets/images/channel_header.png
 description: >
   Things a robot could do but won't
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://syncopatedOS.github.io" # the base hostname & protocol for your site
+url: "https://syncopatedlinux.github.io" # the base hostname & protocol for your site
 url_dev: "https://127.0.0.1:4000" # the base hostname & protocol for your site
 
 author:
   fullname: Robert Pannick
-  github: syncopatedOS
+  github: syncopatedlinux
 
 # Syntax highlighting
 highlightstyle: "darkula"
