@@ -3,9 +3,10 @@ body {
   font-family: $font-family-body;
   color: $body;
   background-color: #000000;
-  background-image: url("/assets/images/str_01_07.png");
+  background-image: url("/assets/images/str_01_03.png");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: contain;
+  background-blend-mode: luminosity;
   margin-bottom: 100px;
 }
 
@@ -265,8 +266,7 @@ strong {
 
   .logo {
     font-size: 4em;
-    // color: #5e09ff;
-    color: #a6bbff;
+    color: #5e1a1a;
     display: flex;
     justify-content: center;
     font-family: 'Podkova', serif;

@@ -5,7 +5,6 @@ subtitle:
 permalink: /about/
 ---
 
-Syncopted Studio is a Linux based operating system designed for Audio Production.
-
+Syncopted Linux 
 
 Coming Fall of 2026
