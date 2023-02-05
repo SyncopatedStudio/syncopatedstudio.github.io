@@ -1,12 +1,12 @@
 /* =Base */
 body {
-  font-family: $font-family-body;
+  font-family: $font-family-monospace;
   color: $body;
   background-color: #000000;
-  background-image: url("/assets/images/str_01_03.png");
+  background-image: url("/assets/images/str_01_01_04.png");
   background-repeat: no-repeat;
-  background-size: contain;
-  background-blend-mode: luminosity;
+  background-size: auto;
+  // background-blend-mode: luminosity;
   margin-bottom: 100px;
 }
 
@@ -260,16 +260,17 @@ strong {
     justify-content: space-around;
     align-items: flex-end;
     margin-left: 15em;
-    margin-right: 2em;
+    margin-right: 10em;
     margin-bottom: 25em;
     margin-top: 12em;
 
   .logo {
     font-size: 4em;
-    color: #5e1a1a;
+    // color: #5e1a1a;
+    color: #003ba2;
     display: flex;
     justify-content: center;
-    font-family: 'Podkova', serif;
+    font-family: $font-family-logo
   }
 
   .navigation {
