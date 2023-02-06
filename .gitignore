@@ -6,3 +6,5 @@ _mdwriter.cson
 Gemfile.lock
 *.xmp
 log.md
+*.mp4
+*.vcp
