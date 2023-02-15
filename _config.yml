@@ -29,6 +29,11 @@ plugins:
 sass:
     sass_dir: _sass
 
+defaults:
+  - scope:
+      path: "assets/repo/syncopated/x86_64"
+    values:
+      package: true
 # collections:
 #   library:
 #     permalink: /library/:name
