@@ -7,7 +7,7 @@ body {
   background-repeat: no-repeat;
   background-size: auto;
   // background-blend-mode: luminosity;
-  margin-bottom: 100px;
+  // margin-bottom: 100px;
 }
 
 a[rel="footnote"] {
@@ -36,6 +36,7 @@ a {
   flex: 50%;
   padding: 5px;
 }
+
 
 h1 {
   font-family: 'Special Elite', cursive;
@@ -118,10 +119,6 @@ ul ul,
 ol ul,
 ul ol {
   margin-bottom: 0;
-}
-
-hljs-deletion {
-  background-color: #232323;
 }
 
 blockquote {
@@ -233,11 +230,10 @@ strong {
   flex-flow: row nowrap;
   flex-direction: column;
   align-items: flex-end;
-  margin-left: 40em;
-  max-width: 60%;
+  max-width: 95%;
   p {
     color: chartreuse;
-    padding: 2em;
+    font-size: 2em;
   }
   .content {
     // display: flex;
@@ -314,13 +310,20 @@ strong {
 
 /* =Footer */
 
+.fixed-bottom {
+  position: fixed;
+  bottom: 0;
+  right: 3em;
+  left: 0em;
+  z-index: 1030;
+}
+
 .footer {
   display: flex;
   justify-content: space-around;
   position: relative;
-  margin: 20px;
   flex-direction: column-reverse;
-  align-items: center;
+  align-items: flex-end;
 
   .navigation {
     float: none;
@@ -343,7 +346,7 @@ strong {
     margin-right: 35px;
 
     &:last-child {
-      margin-right: 0;
+      margin: 1em;
     }
   }
 
@@ -356,6 +359,15 @@ strong {
 /* =Titles */
 .page-title {
   text-align: center;
+  font-family: 'Special Elite', cursive;
+  font-weight: 200;
+  font-size: 1.8em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: antiquewhite;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .page-title__text {
@@ -583,18 +595,26 @@ strong {
   margin-top: 100px;
 }
 
+@media (max-width: 400px) {
+  body {
+    background-blend-mode: luminosity;
+  }
 
-
-@media (max-width: 600px) {
-  /* =Base */
   p {
     font-size: 24px;
     line-height: 1.6;
   }
 
   .wrapper {
-    width: 80%;
-    background-color: $background;
+    background-color: transparent;
+  }
+}
+
+
+@media (max-width: 600px) {
+  p {
+    font-size: 24px;
+    line-height: 1.6;
   }
 
   .navigation,
@@ -643,5 +663,21 @@ strong {
 
   .post-title__subtitle {
     font-size: 18px;
+  }
+}
+
+
+@media (max-width: 800px) {
+  body {
+    background-blend-mode: luminosity;
+  }
+
+  p {
+    font-size: 24px;
+    line-height: 1.6;
+  }
+
+  .wrapper {
+    background-color: transparent;
   }
 }
