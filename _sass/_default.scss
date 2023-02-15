@@ -171,18 +171,15 @@ blockquote {
     flex-direction: column-reverse;
     justify-content: space-around;
     align-items: flex-end;
-    // margin-left: 15em;
-    // margin-right: 10em;
-    margin-top: 36em;
-    margin-right: 16em;
+    // margin: 15em;
 
   .logo {
     font-size: 4em;
-    // color: #5e1a1a;
     color: #003ba2;
     display: flex;
     justify-content: center;
-    font-family: $font-family-logo
+    font-family: $font-family-logo;
+    padding: 1rem;
   }
 
   .navigation {
