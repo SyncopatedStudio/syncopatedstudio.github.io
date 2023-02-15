@@ -1,0 +1,126 @@
+/* =Titles */
+.page-title {
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+  font-weight: 200;
+  font-size: 1.8em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: antiquewhite;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.page-title__text {
+  font-weight: 700;
+  font-size: 70px;
+  margin-top: 0.5em;
+}
+
+.page-title__subtitle {
+  font-weight: 400;
+  font-size: 22px;
+  color: $cloudy;
+  margin: 30px;
+}
+
+.post-title {
+  margin-bottom: 0px;
+}
+
+.post-title__text {
+  font-family: 'Special Elite', cursive;
+  font-weight: 200;
+  font-size: 1.7em;
+}
+
+.post-title__subtitle {
+  font-size: 20px;
+  margin: 0px;
+}
+
+.site-title {
+  text-align: center;
+  display: inherit;
+  padding-bottom: unset;
+}
+
+.site-title__text {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.site-title__subtitle {
+  font-weight: 400;
+  font-size: 22px;
+  color: $cloudy;
+  margin: 30px;
+}
+
+.list-pages {
+  display: flex;
+  justify-items: start;
+  justify-content: space-between;
+  list-style-type: none;
+  text-align: center;
+  margin-top: 5em;
+  margin-bottom: 3em;
+  padding: 0em;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+/* =Post teasers */
+.list-posts {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-items: start;
+  justify-content: space-between;
+  list-style-type: none;
+  text-align: center;
+  margin-top: 5em;
+  margin-bottom: 3em;
+  padding: 0em;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}
+
+.list-cats {
+  display: flex;
+  justify-items: start;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0em;
+  align-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.post-teaser {
+  margin-bottom: 45px;
+  font-weight: 700;
+}
+
+.post-teaser__title {
+  font-size: 22px;
+  color: #85872f;
+}
+
+.post-teaser__date {
+  font-size: 16px;
+  float: right;
+  vertical-align: middle;
+  color: $cloudy;
+}
+
+.empty-post-list {
+  font-size: 22px;
+  font-weight: 700;
+  color: $iron;
+  text-align: center;
+}

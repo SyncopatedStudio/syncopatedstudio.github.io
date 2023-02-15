@@ -8,3 +8,5 @@ Gemfile.lock
 log.md
 *.mp4
 *.vcp
+_sass/_default_old.scss
+scratch.html
