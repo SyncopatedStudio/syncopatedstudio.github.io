@@ -217,6 +217,7 @@ strong {
     p {
       font-size: 1.2em;
       color: #9b6c15;
+      margin: auto;
     }
   }
 }
@@ -231,9 +232,9 @@ strong {
   display: flex;
   flex-flow: row nowrap;
   flex-direction: column;
-  align-items: normal;
+  align-items: flex-end;
   margin-left: 40em;
-  max-width: 40%;
+  max-width: 60%;
   p {
     color: chartreuse;
     padding: 2em;
