@@ -168,10 +168,10 @@ blockquote {
 .header {
     overflow: hidden;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: space-around;
     align-items: flex-end;
-    // margin: 15em;
+    margin-top: 1em;
 
   .logo {
     font-size: 4em;
@@ -179,7 +179,7 @@ blockquote {
     display: flex;
     justify-content: center;
     font-family: $font-family-logo;
-    padding: 1rem;
+    padding: 0.5rem;
   }
 
   .navigation {
@@ -192,7 +192,7 @@ blockquote {
   .menu {
     font-size: 19px;
     margin: 6px 0 0;
-    padding: 0;
+    padding: 1rem;
     list-style-type: none;
   }
 

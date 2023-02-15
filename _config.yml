@@ -16,7 +16,7 @@ highlightstyle: "darkula"
 styles: ["darkula"]
 
 # Handling Reading
-exclude: ["README.md", "README.html", "Gemfile", "Gemfile.lock", "resources/*", "_drafts/*", "_mdwriter.cson"]
+exclude: ["README.md", "README.html", "Gemfile", "Gemfile.lock", "resources/*", "_drafts/*", "_mdwriter.cson", "_mixins_old.scss"]
 
 # Build settings
 highlighter: null
