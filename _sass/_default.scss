@@ -6,7 +6,7 @@ body {
   background-image: url("/assets/images/str_01_05.png");
   background-repeat: no-repeat;
   background-size: auto;
-  background-size: 300em;
+  background-size: 404em;
 }
 
 a {
@@ -111,6 +111,7 @@ blockquote {
   padding: 0;
   text-align: left;
   position: relative;
+  font-family: 'Special Elite', cursive;
 
   footer {
     position: absolute;
@@ -164,6 +165,19 @@ blockquote {
   }
 }
 
+.navbar {
+  font-size: 1.5em;
+  font-family: "Special Elite";
+  padding: 0.5em;
+  list-style-type: none;
+  word-spacing: 0.5em;
+  letter-spacing: 0.2em;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-top: 2em;
+}
+
 .menu {
   font-size: 1.5em;
   font-family: "Special Elite";
@@ -212,19 +226,11 @@ blockquote {
     padding: 0.5rem;
   }
 
-  .navigation {
-    float: none;
-    display: flex;
-    justify-content: center;
-    padding: 1em;
-  }
-
   .menu {
     display: flex !important;
     flex-direction: row-reverse !important;
     align-items: center;
   }
-
 
   .menu__entry {
     display: inline-block;
@@ -289,10 +295,11 @@ blockquote {
   max-width: -webkit-fill-available;
   justify-content: flex-end;
   align-items: flex-end;
-  flex-direction: column;
+  flex-direction: row-reverse;
   p {
-    color: #5e5e58;
-    font-size: unset;
+    color: #e3e3e391;
+    font-family: 'Special Elite';
+    font-size: 1.5em;
   }
 
 }
@@ -319,7 +326,7 @@ blockquote {
     border-style: dashed;
     max-width: 60%;
     padding: 2.5em !important;
-    margin: 9em;
+    margin: 3em;
 }
 
 
