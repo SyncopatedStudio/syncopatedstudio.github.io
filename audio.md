@@ -4,5 +4,3 @@ title:
 description:
 permalink: /audio/
 ---
-
-"{{ audio link }}"

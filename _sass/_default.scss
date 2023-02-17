@@ -3,9 +3,10 @@ body {
   font-family: $font-family-monospace;
   color: $body;
   background-color: #000000;
-  // background-image: url("/assets/images/str_01.png");
-  // background-repeat: no-repeat;
-  // background-size: auto;
+  background-image: url("/assets/images/str_01_05.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: 300em;
 }
 
 a {
@@ -204,7 +205,7 @@ blockquote {
 
   .logo {
     font-size: 4em;
-    color: #0000FF;
+    color: $site-title;
     display: flex;
     justify-content: center;
     font-family: $font-family-logo;
@@ -347,7 +348,7 @@ blockquote {
 
 .fa-brands, .fab {
   font-size: xxx-large;
-  color: #0000FF;
+  color: #inherit;
 }
 
 .footnotes {
