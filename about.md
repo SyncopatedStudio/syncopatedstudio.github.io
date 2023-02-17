@@ -5,6 +5,6 @@ subtitle:
 permalink: /about/
 ---
 
-Syncopted Linux 
+Syncopted Studio
 
-Coming Fall of 2026
+Coming Fall of 2025

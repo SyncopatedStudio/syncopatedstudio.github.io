@@ -3,7 +3,7 @@ body {
   font-family: $font-family-monospace;
   color: $body;
   background-color: #000000;
-  background-image: url("/assets/images/str_01_01_04.png");
+  background-image: url("/assets/images/str.png");
   background-repeat: no-repeat;
   background-size: auto;
 }
@@ -171,11 +171,13 @@ blockquote {
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-end;
-    margin-top: 1em;
+    padding: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
 
   .logo {
     font-size: 4em;
-    color: #003ba2;
+    color: #0000FF;
     display: flex;
     justify-content: center;
     font-family: $font-family-logo;
@@ -190,11 +192,11 @@ blockquote {
   }
 
   .menu {
-    font-size: 19px;
-    margin: 6px 0 0;
-    padding: 1rem;
-    list-style-type: none;
+    display: flex !important;
+    flex-direction: row-reverse !important;
+    align-items: center;
   }
+
 
   .menu__entry {
     display: inline-block;
@@ -207,6 +209,7 @@ blockquote {
 
   .menu__entry a {
     color: #494a4e;
+    font-size: 2em;
     font-weight: 500;
   }
 }
@@ -292,7 +295,7 @@ blockquote {
 
 .fa-brands, .fab {
   font-size: xxx-large;
-  color: #00389b;
+  color: #0000FF;
 }
 
 .footnotes {
