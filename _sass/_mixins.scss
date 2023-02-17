@@ -7,12 +7,12 @@
 
 
 @media (max-width: 1650px) {
-  body {
-    background-blend-mode: hard-light;
-  }
 
   // .header {
   //   margin-top: 12em;
+  // }
+  // .footer {
+  //   align-items: flex-start;
   // }
 
 }
@@ -20,12 +20,8 @@
 
 @media (max-width: 1100px) {
 
-  body {
-    background-blend-mode: hard-light;
-  }
-
   .header {
-    margin-top: 12em;
+    margin-top: 9em;
     margin-right: 1em;
   }
 
@@ -47,21 +43,12 @@
 }
 
 @media (max-width: 970px) {
-
-  body {
-    background-blend-mode: hard-light;
-  }
-
   .header {
     margin-top: 15em;
   }
-
 }
 
 @media (max-width: 800px) {
-  body {
-    background-blend-mode: hard-light;
-  }
   .header {
     margin-top: 15em;
     min-width: fit-content;
@@ -69,14 +56,37 @@
 }
 
 @media (max-width: 600px) {
-  body {
-    background-blend-mode: hard-light;
-  }
+
   .header {
-    margin-top: 5em;
-    min-width: fit-content;
+    min-width: unset;
+    .menu {
+      flex-direction: column !important;
+      align-items: flex-end;
+      padding: unset;
+    }
   }
 }
+
+@media (max-width: 400px) {
+
+  .header {
+    min-width: unset;
+    margin-top: unset;
+    .logo {
+        visibility: hidden;
+        font-size: unset;
+    }
+    .menu {
+      font-size: 1.5em;
+      line-height: 2;
+      padding: inherit;
+      margin: inherit;
+      flex-direction: column-reverse !important;
+    }
+  }
+}
+
+
 
 @media (max-height: 400px) {
   .header {

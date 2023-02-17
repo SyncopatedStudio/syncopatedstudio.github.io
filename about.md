@@ -1,10 +1,9 @@
 ---
-layout: project
+layout: about
 title:
-subtitle:
+description:
 permalink: /about/
+youtubeId: xZg1WxeBltY
 ---
 
-Syncopted Studio
-
-Coming Fall of 2025
+{% include embed/youtubePlayer.html id=page.youtubeId %}

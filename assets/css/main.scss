@@ -8,7 +8,7 @@
 $iron: #f64f4f;
 $cloudy: #828282;
 
-$primary: #d62929;
+$primary: #0000ff;
 
 $background: #000000;
 $body: #6c6666;
@@ -27,18 +27,17 @@ $font-family-logo: 'Podkova', serif;
 
 /* https://github.com/AppliedLogicSystems/ALSProlog/commit/e49a98b7fb5e7039fe135eb94e9d9572de94ec82 */
 /* ".site-title" is the class in header.html ; this config at the moment overlaps the logo ontop of the site title */
-// .site-title::before {
-// 	content: url("/assets/images/site_header02.png");
-// 	display: inline-block;
-// 	position: relative;
-// 	width: 37px;
-// 	top: 5px;
+// .header::before {
+//   .bgimage2 {
+// 	   content: url("/assets/images/site_header02.png");
+//    }
 // }
 
 @import
     "bootstrap/bootstrap",
     "default",
-    "mixins",    
+    "iframe",
+    "mixins",
     "404"
     // "pygment_highlights"
 ;

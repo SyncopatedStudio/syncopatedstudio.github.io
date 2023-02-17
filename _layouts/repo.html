@@ -1,0 +1,7 @@
+
+
+{% assign package_files = site.static_files |where: "package", true %}
+
+{% for pkg in package_files %}
+  <a href="{{ pkg.path }}">{{ pkg.name }}</a>
+{% endfor %}
